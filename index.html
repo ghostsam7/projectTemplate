@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" type = "text/css" href = "style.css" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<title>Title of the document</title>
+</head>
+
+<body>
+  <div class="sidebar">
+    <ul>
+      <li><img src="logo.png" style="width:80px"></li>
+      <li><button><i class="fa fa-tachometer" aria-hidden="true"></i><p>DASHBOARD<p></button></li>
+      <li><button><i class="fa fa-area-chart" aria-hidden="true"></i><p>CATLOGS<p></button></li>
+      <li><button><i class="fa fa-credit-card-alt" aria-hidden="true"></i><p>PAYMENT<p></button></li>
+      <li><button><i class="fa fa-file-text-o" aria-hidden="true"></i><p>ORDERS<p></button></li>
+      <li><button><i class="fa fa-undo" aria-hidden="true"></i><p>RETURNS<p></button></li>
+      <li><button><i class="fa fa-spin fa-cog" aria-hidden="true"></i><p>SETTINGS<p></button></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="headbar">
+    <div class="user">  Welcome Padam! <i class="fa fa-caret-down" aria-hidden="true"></i> <img src="user.jpg" style="height: 40px; width 40px"></div>
+      <div class="noti"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+      <input class="search" type="text" name="lname" placeholder="Search here...">
+
+      <div class="search"></div>
+    </div>
+
+    <div class="headbar2">
+      <div class="stats">
+        <div class="value">12</div>
+        <div class="tag">PENDING ACTIONS <i class="fa fa-caret-right" aria-hidden="true"></i></div>
+      </div><!--
+   --><div class="stats">
+        <div class="value">31</div>
+        <div class="tag">PENDING SHIPMENTS <i class="fa fa-caret-right" aria-hidden="true"></i></div>
+      </div><!--
+   --><div class="stats">
+        <div class="value">148</div>
+        <div class="tag">OVERALL SLA BREACH <i class="fa fa-caret-right" aria-hidden="true"></i></div>
+      </div><!--
+   --><div class="stats review" style=" border-left : 2px;">
+        <div class="value">148</div>
+        <div class="ratings">
+          <ul>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2 class="display:block">Overall summary</h2>
+      <div class="filter">
+        <ul>
+          <li>sort by</li>
+          <li><button style="width: 80px;">week</button></li><!--
+       --><li><button style="width:80px; margin-right:10px">month</button></li>
+          <li><button style="width: 100px;">DD/MM/YY</button></li>
+          <li>To</li>
+          <li><button style="width: 100px;">DD/MM/YY</button></li>
+      </div>
+
+      <div class="tiles">
+        <ul>
+          <li><button>week</button></li>
+          <li><button>week</button></li>
+          <li><button>week</button></li>
+          <li><button>week</button></li>
+          <li><button>week</button></li>
+          <li><button>week</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

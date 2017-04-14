@@ -1,0 +1,225 @@
+
+body{
+  background-color: #e1e4ea;
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar li{
+  display: block;
+}
+
+ul{
+  padding: 0;
+}
+
+.sidebar i{
+  font-size: 30px;
+}
+
+.sidebar button{
+  padding: 10px;
+  color : #999;
+  background-color: #fff;
+  border: none;
+}
+
+.headbar{
+  background-color: #060e6b;
+  color: #fff;
+  width: 100%;
+}
+
+.noti{
+  display: inline;
+  float: left;
+  padding: 20px;
+  height: 50px;
+}
+.user{
+  float: right;
+  padding: 10px;
+  margin-right: 10px;
+  height: 50px;
+}
+.user img{
+  margin-right: 10px;
+  float: left;
+  border-radius: 50%;
+}
+.search{
+}
+
+
+.value .ratings{
+  display: inline-table;
+}
+
+.ratings li{
+  display: inline-block;
+}
+input[type=text] {
+  display: block;
+    padding: 20px;
+    background-color: #060e6b;
+    outline:none;
+    color: white;
+    border: none;
+}
+
+.headbar2{
+  width: 100%;
+  margin: 0;
+}
+
+.stats{
+  margin: 0;
+  height: 120px;
+  background-color: #160f8c;
+  display: block;
+  font-family: sans-serif;
+  border: 1px;
+  border-color: #fff;
+}
+.review{
+  width : 100%;
+}
+
+.stats>.value{
+  font-size: 35px;
+  color: #fff;
+}
+
+.stats{
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.stats .tag{
+  font-size: 10px;
+  font-weight: bold;
+  color: #2361c4;
+}
+
+.review{
+  padding: 0;
+}
+
+.content{
+  padding: 20px;
+  color: #555;
+  font-weight:bold;
+}
+
+h2{
+  float: left;
+}
+
+.filter{
+  float: right;
+  margin : 10px;
+}
+.filter li{
+  display: inline-table;
+}
+
+button{
+    background-color: #e1e4ea;
+    border-width: 2px;
+    border-style: solid;
+    color: #555;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+button:active {
+  color : blue;
+  background-color: white;
+}
+
+button:focus {
+  color : #14a1ff;
+  font-weight: bold;
+  background-color: white;
+  outline: none;
+}
+.tiles{
+  float: right;
+}
+.tiles li {
+  display: inline-table;
+}
+.tiles button{
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  height : 150px;
+  width : 150px;
+}
+
+.tiles button:focus{
+  border-bottom: solid 3px #14a1ff;
+}
+
+@media only screen  and (min-width : 800px) {
+/* Styles */
+.sidebar {
+  display: block;
+   text-align: center;
+    position: fixed;
+    width: 10% ;
+    min-width: 50px;
+    height: 100%;
+    min-height: 80  0px;
+    background: #fff;
+}
+
+
+.container{
+  margin-left: 10%;
+}
+
+.stats{
+  margin: 0;
+  width: 22%;
+  height: 150px;
+  background-color: #160f8c;
+  display: inline-table;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.stats .tag{
+  font-size: 12px;
+}
+
+.review{
+  width : 34%;
+}
+
+.search{
+  padding: 10px;
+  display: inline;
+}
+
+.noti{
+  float: right;
+  margin-right: 10px;
+}
+
+}
+
+@media only screen  and (min-width : 1024px) {
+/* Styles */
+}
